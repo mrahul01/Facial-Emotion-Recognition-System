@@ -45,3 +45,35 @@ The model is trained on the **FER2013 dataset** to classify facial expressions i
 ---
 
 ## ⚙️ Project Structure
+Facial-Emotion-Recognition/
+│
+├── train/ # Training dataset
+├── test/ # Testing dataset
+├── emotion_model.h5 # Trained CNN model
+├── train_model.ipynb # Model training notebook
+├── emotion_detection.py # emotion detection script
+└── README.md
+## 🎥 Real-Time Emotion Detection
+
+Run the following command on your local system:
+
+python emotion_detection.py
+
+
+Press Q to exit the webcam window.
+
+## 📊 Model Performance
+
+Achieved ~70%+ validation accuracy on FER2013 dataset
+
+Performance improved using data augmentation, batch normalization, and dropout
+
+## 📌 Use Cases
+
+Human–Computer Interaction
+
+Mental health monitoring (research-based)
+
+Smart surveillance systems
+
+Emotion-aware applications
